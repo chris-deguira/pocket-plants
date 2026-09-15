@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 140" width="480" height="140" role="img" aria-labelledby="t">
+  <title id="t">Pocket Plants logo</title>
+  <rect x="6" y="6" width="468" height="128" rx="22" fill="#f1f7ef" stroke="#2f7d4f" stroke-width="4"/>
+  <rect x="30" y="30" width="80" height="80" rx="18" fill="#2f7d4f"/>
+  <path d="M70 96C70 78 75 62 88 52C91 70 86 88 70 96Z" fill="#ffffff"/>
+  <path d="M70 96C70 82 64 72 50 66C48 80 54 92 70 96Z" fill="#cfe8d8"/>
+  <text x="128" y="74" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="bold" fill="#1d4a30">Pocket Plants</text>
+  <text x="130" y="104" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#2f7d4f">Small plants, simple care</text>
+</svg>
