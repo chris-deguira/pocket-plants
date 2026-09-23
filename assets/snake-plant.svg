@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Snake plant in a terracotta pot">
+  <title>Snake plant in a terracotta pot</title>
+  <g stroke="#c9d36a" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M100 124C86 90 88 50 98 18C112 50 114 92 100 124Z" fill="#2f7d4f" transform="rotate(-24 100 124)"/>
+    <path d="M100 124C86 90 88 50 98 18C112 50 114 92 100 124Z" fill="#3f8f5a" transform="rotate(22 100 124) scale(0.92) translate(8 10)"/>
+    <path d="M100 124C86 90 88 50 98 18C112 50 114 92 100 124Z" fill="#4fa36b" transform="rotate(-9 100 124)"/>
+    <path d="M100 124C86 90 88 50 98 18C112 50 114 92 100 124Z" fill="#3f8f5a" transform="rotate(10 100 124) scale(0.96) translate(4 5)"/>
+    <path d="M100 124C86 90 88 50 98 18C112 50 114 92 100 124Z" fill="#2f7d4f" transform="translate(0 0)"/>
+  </g>
+  <path d="M62 128h76l-10 52H72z" fill="#b8643f"/>
+  <rect x="56" y="118" width="88" height="16" rx="5" fill="#cf7a52"/>
+
+</svg>

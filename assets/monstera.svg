@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Monstera in a terracotta pot">
+  <title>Monstera in a terracotta pot</title>
+  <g fill="none" stroke="#2f7d4f" stroke-width="4" stroke-linecap="round">
+    <path d="M90 122C70 100 60 80 56 62"/>
+    <path d="M104 122C104 90 110 70 118 48"/>
+    <path d="M116 124C140 110 150 100 152 88"/>
+  </g>
+  <g transform="translate(52 56) rotate(-20)">
+    <ellipse rx="32" ry="25" fill="#2f7d4f"/>
+    <path d="M-30 0H10M-24 -13L-4 -4M-24 13L-4 4M-8 -20L2 -6M-8 20L2 6" stroke="#1f5c39" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  </g>
+  <g transform="translate(122 40) rotate(25)">
+    <ellipse rx="32" ry="25" fill="#3f9a5f"/>
+    <path d="M-30 0H10M-24 -13L-4 -4M-24 13L-4 4M-8 -20L2 -6M-8 20L2 6" stroke="#1f5c39" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  </g>
+  <g transform="translate(152 86) rotate(70)">
+    <ellipse rx="32" ry="25" fill="#2f7d4f"/>
+    <path d="M-30 0H10M-24 -13L-4 -4M-24 13L-4 4M-8 -20L2 -6M-8 20L2 6" stroke="#1f5c39" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  </g>
+  <path d="M62 128h76l-10 52H72z" fill="#b8643f"/>
+  <rect x="56" y="118" width="88" height="16" rx="5" fill="#cf7a52"/>
+
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Boston fern in a terracotta pot">
+  <title>Boston fern in a terracotta pot</title>
+  <g fill="none" stroke-linecap="round">
+    <path d="M100 125C70 85 40 90 26 128" stroke="#4a9a68" stroke-width="16" stroke-dasharray="1 5"/>
+    <path d="M100 125C70 85 40 90 26 128" stroke="#2f7d4f" stroke-width="2.5"/>
+    <path d="M100 125C78 62 46 52 30 74" stroke="#4a9a68" stroke-width="16" stroke-dasharray="1 5"/>
+    <path d="M100 125C78 62 46 52 30 74" stroke="#2f7d4f" stroke-width="2.5"/>
+    <path d="M100 125C96 70 86 40 70 24" stroke="#4a9a68" stroke-width="16" stroke-dasharray="1 5"/>
+    <path d="M100 125C96 70 86 40 70 24" stroke="#2f7d4f" stroke-width="2.5"/>
+    <path d="M100 125C116 70 128 42 148 28" stroke="#4a9a68" stroke-width="16" stroke-dasharray="1 5"/>
+    <path d="M100 125C116 70 128 42 148 28" stroke="#2f7d4f" stroke-width="2.5"/>
+    <path d="M100 125C124 66 156 58 172 80" stroke="#4a9a68" stroke-width="16" stroke-dasharray="1 5"/>
+    <path d="M100 125C124 66 156 58 172 80" stroke="#2f7d4f" stroke-width="2.5"/>
+    <path d="M100 125C130 88 160 92 174 130" stroke="#4a9a68" stroke-width="16" stroke-dasharray="1 5"/>
+    <path d="M100 125C130 88 160 92 174 130" stroke="#2f7d4f" stroke-width="2.5"/>
+  </g>
+  <path d="M62 128h76l-10 52H72z" fill="#b8643f"/>
+  <rect x="56" y="118" width="88" height="16" rx="5" fill="#cf7a52"/>
+
+</svg>

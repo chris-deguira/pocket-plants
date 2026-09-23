@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Aloe vera in a terracotta pot">
+  <title>Aloe vera in a terracotta pot</title>
+  <g stroke="#2f7d4f" stroke-width="2" stroke-linejoin="round">
+    <path d="M100 128C88 100 91 68 100 36C109 68 112 100 100 128Z" fill="#4a9a68" transform="rotate(-52 100 128)"/>
+    <path d="M100 128C88 100 91 68 100 36C109 68 112 100 100 128Z" fill="#4a9a68" transform="rotate(52 100 128)"/>
+    <path d="M100 128C88 100 91 68 100 36C109 68 112 100 100 128Z" fill="#5fae7a" transform="rotate(-32 100 128)"/>
+    <path d="M100 128C88 100 91 68 100 36C109 68 112 100 100 128Z" fill="#5fae7a" transform="rotate(32 100 128)"/>
+    <path d="M100 128C88 100 91 68 100 36C109 68 112 100 100 128Z" fill="#4a9a68" transform="rotate(-14 100 128)"/>
+    <path d="M100 128C88 100 91 68 100 36C109 68 112 100 100 128Z" fill="#4a9a68" transform="rotate(14 100 128)"/>
+    <path d="M100 128C88 100 91 68 100 36C109 68 112 100 100 128Z" fill="#6dbb87" transform="rotate(0 100 128)"/>
+  </g>
+  <path d="M62 128h76l-10 52H72z" fill="#b8643f"/>
+  <rect x="56" y="118" width="88" height="16" rx="5" fill="#cf7a52"/>
+
+</svg>

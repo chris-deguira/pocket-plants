@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Pothos in a terracotta pot">
+  <title>Pothos in a terracotta pot</title>
+  <defs><path id="heart" d="M0 14C-20 0-16-16-6-14C-2-13 0-9 0-6C0-9 2-13 6-14C16-16 20 0 0 14Z"/></defs>
+  <g fill="none" stroke="#2f7d4f" stroke-width="4" stroke-linecap="round">
+    <path d="M88 122C60 100 52 70 66 40"/>
+    <path d="M100 122C100 90 108 60 104 30"/>
+    <path d="M112 122C140 100 150 70 138 44"/>
+    <path d="M128 130C158 138 162 164 150 186"/>
+    <path d="M72 130C46 140 40 164 52 186"/>
+  </g>
+  <g fill="#3f9a5f">
+    <use href="#heart" transform="translate(66 38) rotate(-10)"/>
+    <use href="#heart" transform="translate(58 78) rotate(-50)" fill="#2f7d4f"/>
+    <use href="#heart" transform="translate(104 28) rotate(8)" fill="#52b073"/>
+    <use href="#heart" transform="translate(104 66) rotate(40)"/>
+    <use href="#heart" transform="translate(139 42) rotate(14)" fill="#2f7d4f"/>
+    <use href="#heart" transform="translate(142 84) rotate(55)" fill="#52b073"/>
+    <use href="#heart" transform="translate(151 184) rotate(180)"/>
+    <use href="#heart" transform="translate(52 184) rotate(170)" fill="#2f7d4f"/>
+  </g>
+  <path d="M62 128h76l-10 52H72z" fill="#b8643f"/>
+  <rect x="56" y="118" width="88" height="16" rx="5" fill="#cf7a52"/>
+
+</svg>
