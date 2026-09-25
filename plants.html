@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plants | Pocket Plants</title>
+  <meta name="description" content="Browse six easy houseplants and filter by light and pet safety.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="assets/favicon.svg" alt="" width="32" height="32"><span>Pocket Plants</span></a>
+      <nav aria-label="Main">
+        <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="plants.html" aria-current="page">Plants</a></li>
+        <li><a href="care.html">Care guide</a></li>
+        <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="container section">
+      <h1>All plants</h1>
+      <p class="lead">Filter by name, by the light available, or show only plants that are safe for pets.</p>
+
+      <form class="filters" id="filters" hidden>
+        <div class="field">
+          <label for="filter-search">Search by name</label>
+          <input type="search" id="filter-search" placeholder="For example, fern">
+        </div>
+        <div class="field">
+          <label for="filter-light">Available light</label>
+          <select id="filter-light">
+            <option value="any">Any light</option>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="bright">Bright</option>
+          </select>
+        </div>
+        <div class="check">
+          <input type="checkbox" id="filter-pets">
+          <label for="filter-pets">Pet-safe only</label>
+        </div>
+        <button class="button button-secondary" type="reset">Clear filters</button>
+      </form>
+
+      <p id="result-count" role="status">Showing 6 plants</p>
+
+      <div class="grid">
+        <article class="plant-card" id="pothos" data-name="Pothos" data-light="low medium bright" data-pets="toxic">
+          <img src="assets/pothos.svg" alt="Illustration of a pothos in a terracotta pot" width="140" height="140">
+          <h2>Pothos</h2>
+          <p class="latin">Epipremnum aureum</p>
+          <dl class="facts">
+            <dt>Light</dt><dd>Low to bright indirect</dd>
+            <dt>Water</dt><dd>Every 1 to 2 weeks, when the top inch of soil is dry</dd>
+            <dt>Difficulty</dt><dd>Easy</dd>
+          </dl>
+          <p>A trailing vine that forgives missed waterings and grows in almost any room.</p>
+          <span class="badge badge-toxic">Toxic to pets</span>
+        </article>
+        <article class="plant-card" id="snake-plant" data-name="Snake plant" data-light="low medium bright" data-pets="toxic">
+          <img src="assets/snake-plant.svg" alt="Illustration of a snake plant in a terracotta pot" width="140" height="140">
+          <h2>Snake plant</h2>
+          <p class="latin">Dracaena trifasciata</p>
+          <dl class="facts">
+            <dt>Light</dt><dd>Low to bright</dd>
+            <dt>Water</dt><dd>Every 2 to 3 weeks, and less in winter</dd>
+            <dt>Difficulty</dt><dd>Easy</dd>
+          </dl>
+          <p>Upright, sculptural leaves that tolerate dim corners and long gaps between drinks.</p>
+          <span class="badge badge-toxic">Toxic to pets</span>
+        </article>
+        <article class="plant-card" id="monstera" data-name="Monstera" data-light="medium bright" data-pets="toxic">
+          <img src="assets/monstera.svg" alt="Illustration of a monstera in a terracotta pot" width="140" height="140">
+          <h2>Monstera</h2>
+          <p class="latin">Monstera deliciosa</p>
+          <dl class="facts">
+            <dt>Light</dt><dd>Bright indirect</dd>
+            <dt>Water</dt><dd>Every 1 to 2 weeks, when the top two inches are dry</dd>
+            <dt>Difficulty</dt><dd>Moderate</dd>
+          </dl>
+          <p>Large, glossy leaves that develop their splits as the plant matures.</p>
+          <span class="badge badge-toxic">Toxic to pets</span>
+        </article>
+        <article class="plant-card" id="aloe-vera" data-name="Aloe vera" data-light="bright" data-pets="toxic">
+          <img src="assets/aloe.svg" alt="Illustration of a aloe vera in a terracotta pot" width="140" height="140">
+          <h2>Aloe vera</h2>
+          <p class="latin">Aloe vera</p>
+          <dl class="facts">
+            <dt>Light</dt><dd>Bright, with some direct sun</dd>
+            <dt>Water</dt><dd>Every 2 to 3 weeks, once the soil is fully dry</dd>
+            <dt>Difficulty</dt><dd>Easy</dd>
+          </dl>
+          <p>A succulent that stores water in its thick leaves and prefers a sunny windowsill.</p>
+          <span class="badge badge-toxic">Toxic to pets</span>
+        </article>
+        <article class="plant-card" id="spider-plant" data-name="Spider plant" data-light="medium bright" data-pets="safe">
+          <img src="assets/spider-plant.svg" alt="Illustration of a spider plant in a terracotta pot" width="140" height="140">
+          <h2>Spider plant</h2>
+          <p class="latin">Chlorophytum comosum</p>
+          <dl class="facts">
+            <dt>Light</dt><dd>Medium to bright indirect</dd>
+            <dt>Water</dt><dd>About weekly, keeping the soil lightly moist</dd>
+            <dt>Difficulty</dt><dd>Easy</dd>
+          </dl>
+          <p>Arching, striped leaves and baby plantlets that are easy to share.</p>
+          <span class="badge badge-safe">Pet-safe</span>
+        </article>
+        <article class="plant-card" id="boston-fern" data-name="Boston fern" data-light="medium" data-pets="safe">
+          <img src="assets/boston-fern.svg" alt="Illustration of a boston fern in a terracotta pot" width="140" height="140">
+          <h2>Boston fern</h2>
+          <p class="latin">Nephrolepis exaltata</p>
+          <dl class="facts">
+            <dt>Light</dt><dd>Medium indirect</dd>
+            <dt>Water</dt><dd>Check every few days and keep the soil lightly moist</dd>
+            <dt>Difficulty</dt><dd>Moderate</dd>
+          </dl>
+          <p>Feathery fronds that like humidity, which makes a bathroom a good home.</p>
+          <span class="badge badge-safe">Pet-safe</span>
+        </article>
+      </div>
+
+      <p><small>Pet-safety notes follow ASPCA listings at the time of writing. Confirm with a veterinarian before bringing a new plant home.</small></p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Pocket Plants is a practice project released under the MIT License. Care notes are general guidance, not professional advice.</p>
+    </div>
+  </footer>
+  <script src="js/filter.js"></script>
+</body>
+</html>
