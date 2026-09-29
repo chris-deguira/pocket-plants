@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Care guide | Pocket Plants</title>
+  <meta name="description" content="Watering, light, and seasonal care notes for six easy houseplants, plus a watering planner.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="assets/favicon.svg" alt="" width="32" height="32"><span>Pocket Plants</span></a>
+      <nav aria-label="Main">
+        <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="plants.html">Plants</a></li>
+        <li><a href="care.html" aria-current="page">Care guide</a></li>
+        <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="container section">
+      <h1>Care guide</h1>
+      <p class="lead">Light and watering at a glance, a planner for the next watering, and a seasonal checklist.</p>
+    </section>
+
+    <section class="container section">
+      <h2>At a glance</h2>
+      <div class="table-wrap">
+        <table>
+          <caption>Light, watering, and pet safety for each plant</caption>
+          <thead>
+            <tr>
+              <th scope="col">Plant</th>
+              <th scope="col">Light</th>
+              <th scope="col">Water</th>
+              <th scope="col">Difficulty</th>
+              <th scope="col">Pets</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Pothos</th>
+              <td>Low to bright indirect</td>
+              <td>Every 1 to 2 weeks</td>
+              <td>Easy</td>
+              <td>Toxic to pets</td>
+            </tr>
+            <tr>
+              <th scope="row">Snake plant</th>
+              <td>Low to bright</td>
+              <td>Every 2 to 3 weeks</td>
+              <td>Easy</td>
+              <td>Toxic to pets</td>
+            </tr>
+            <tr>
+              <th scope="row">Monstera</th>
+              <td>Bright indirect</td>
+              <td>Every 1 to 2 weeks</td>
+              <td>Moderate</td>
+              <td>Toxic to pets</td>
+            </tr>
+            <tr>
+              <th scope="row">Aloe vera</th>
+              <td>Bright, with some direct sun</td>
+              <td>Every 2 to 3 weeks</td>
+              <td>Easy</td>
+              <td>Toxic to pets</td>
+            </tr>
+            <tr>
+              <th scope="row">Spider plant</th>
+              <td>Medium to bright indirect</td>
+              <td>About weekly</td>
+              <td>Easy</td>
+              <td>Pet-safe</td>
+            </tr>
+            <tr>
+              <th scope="row">Boston fern</th>
+              <td>Medium indirect</td>
+              <td>Every few days</td>
+              <td>Moderate</td>
+              <td>Pet-safe</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="container section">
+      <h2>Watering planner</h2>
+      <div class="panel">
+        <form class="planner" id="planner">
+          <div class="field">
+            <label for="planner-plant">Plant</label>
+            <select id="planner-plant">
+            <option value="pothos" data-days="10">Pothos (every 10 days)</option>
+            <option value="snake-plant" data-days="18">Snake plant (every 18 days)</option>
+            <option value="monstera" data-days="10">Monstera (every 10 days)</option>
+            <option value="aloe-vera" data-days="18">Aloe vera (every 18 days)</option>
+            <option value="spider-plant" data-days="7">Spider plant (every 7 days)</option>
+            <option value="boston-fern" data-days="4">Boston fern (every 4 days)</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="planner-date">Last watered</label>
+            <input type="date" id="planner-date" required>
+          </div>
+          <button class="button" type="submit">Find the next date</button>
+        </form>
+        <p class="result" id="planner-result" role="status"></p>
+      </div>
+    </section>
+
+    <section class="container section">
+      <h2>Seasonal checklist</h2>
+      <ul class="checklist">
+        <li><label><input type="checkbox"> Spring: repot plants that have outgrown their pots</label></li>
+        <li><label><input type="checkbox"> Summer: move plants away from hot afternoon glass</label></li>
+        <li><label><input type="checkbox"> Autumn: cut back on fertilizer</label></li>
+        <li><label><input type="checkbox"> Winter: water less often and keep leaves away from cold windows</label></li>
+      </ul>
+    </section>
+
+    <section class="container section">
+      <h2>Common questions</h2>
+      <details>
+        <summary>How can overwatering be spotted?</summary>
+        <p>Yellowing lower leaves, soft stems, and soil that stays wet for days are the usual signs. Let the soil dry further before the next watering.</p>
+      </details>
+      <details>
+        <summary>Do all plants need a pot with drainage holes?</summary>
+        <p>Drainage holes let extra water escape, which protects the roots. A decorative pot without holes works best as an outer cover for a plain pot that has them.</p>
+      </details>
+      <details>
+        <summary>Should leaves be misted?</summary>
+        <p>Misting raises humidity only briefly. Grouping plants together or using a tray of pebbles and water helps ferns more than misting does.</p>
+      </details>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Pocket Plants is a practice project released under the MIT License. Care notes are general guidance, not professional advice.</p>
+    </div>
+  </footer>
+  <script src="js/planner.js"></script>
+</body>
+</html>
