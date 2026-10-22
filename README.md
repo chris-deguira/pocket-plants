@@ -4,7 +4,7 @@
 
 Pocket Plants is a small static website: a guide to six easy houseplants with light, watering, and pet-safety notes. It is built with plain HTML, CSS, and a little JavaScript, and it is published with GitHub Pages.
 
-**Live site:** `https://OWNER.github.io/REPO-NAME/` (replace `OWNER` and `REPO-NAME` with the account and repository names)
+**Live site:** `https://OWNER.github.io/REPO-NAME/` (replace `OWNER` and `REPO-NAME` with the account and repository names). The exact address is shown in the repository's **Settings**, then **Pages**. A site published privately uses a different address.
 
 > [!IMPORTANT]
 > GitHub's Code tab shows `.html` files as source text, not as web pages. The rendered site appears only at the GitHub Pages address above. Markdown files, SVG images, and Mermaid diagrams do render directly on GitHub.
@@ -75,7 +75,20 @@ The check needs Node 18 or newer. It reports pages that are missing a `lang` att
 3. Choose the `main` branch and the `/ (root)` folder, then select **Save**.
 4. Wait a few minutes, then open the address shown at the top of the Pages settings.
 
-On the GitHub Free plan, Pages sites need a public repository.
+### Private repositories
+
+This repository is intended to be private. The source code, issues, pull requests, and history stay visible only to invited collaborators and members.
+
+| Plan | Pages from a private repository | Who can open the published site |
+|------|---------------------------------|---------------------------------|
+| GitHub Free | Not available | Not applicable |
+| GitHub Pro or Team | Available | Anyone who has the address |
+| GitHub Enterprise Cloud | Available | Anyone who has the address, or only people with read access to the repository when the site is published privately |
+
+> [!WARNING]
+> Publishing a site from a private repository does not make the site private. Unless the organization uses private publishing on GitHub Enterprise Cloud, everything on the site is reachable on the public internet. Keep confidential content out of the pages.
+
+Without Pages, the pages can still be previewed by opening `index.html` in a browser. Everything else in the repository, including the README, the design notes, the SVG illustrations, and the Site check workflow, works the same in a private repository.
 
 ## Roadmap
 
