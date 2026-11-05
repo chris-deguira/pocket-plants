@@ -2,7 +2,7 @@
   <img src="assets/logo.svg" alt="Pocket Plants logo" width="360">
 </p>
 
-Pocket Plants is a small static website: a guide to six easy houseplants with light, watering, and pet-safety notes. It is built with plain HTML, CSS, and a little JavaScript, and it is published with GitHub Pages.
+Pocket Plants is a small static website: a guide to seven easy houseplants with light, watering, and pet-safety notes. It is built with plain HTML, CSS, and a little JavaScript, and it is published with GitHub Pages.
 
 ## Features
 
@@ -36,7 +36,7 @@ flowchart LR
 | [`index.html`](index.html), [`plants.html`](plants.html), [`care.html`](care.html), [`about.html`](about.html) | The four pages |
 | [`css/`](css) | The single stylesheet, with light and dark color schemes |
 | [`js/`](js) | The plant filter and the watering planner |
-| [`assets/`](assets) | The logo, favicon, and six plant illustrations in SVG |
+| [`assets/`](assets) | The logo, favicon, and seven plant illustrations in SVG |
 | [`scripts/check-site.mjs`](scripts/check-site.mjs) | The page check that the CI workflow runs |
 | [`docs/`](docs) | [Design notes](docs/design-notes.md) with the palette and layout |
 | [`.github/`](.github) | The Site check workflow, issue templates, and the pull request template |
@@ -50,6 +50,7 @@ The plant artwork is drawn as SVG, so it displays directly in the repository as 
 |:-:|:-:|:-:|
 | <img src="assets/pothos.svg" alt="Pothos" width="110"><br>Pothos | <img src="assets/snake-plant.svg" alt="Snake plant" width="110"><br>Snake plant | <img src="assets/monstera.svg" alt="Monstera" width="110"><br>Monstera |
 | <img src="assets/aloe.svg" alt="Aloe vera" width="110"><br>Aloe vera | <img src="assets/spider-plant.svg" alt="Spider plant" width="110"><br>Spider plant | <img src="assets/boston-fern.svg" alt="Boston fern" width="110"><br>Boston fern |
+| <img src="assets/zz-plant.svg" alt="ZZ plant" width="110"><br>ZZ plant | | |
 
 ## Run it locally
 
@@ -70,7 +71,7 @@ The check needs Node 18 or newer. It reports pages that are missing a `lang` att
 - [x] Light and dark color schemes
 - [x] Automated page check
 - [ ] Add a custom 404 page
-- [ ] Add more plants, such as a ZZ plant and a peace lily
+- [ ] Add more plants, such as a peace lily
 - [ ] Add a print stylesheet for the care table
 
 ## Contributing and license

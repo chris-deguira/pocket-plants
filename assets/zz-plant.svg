@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="ZZ plant in a terracotta pot">
+  <title>ZZ plant in a terracotta pot</title>
+  <g fill="none" stroke="#286c43" stroke-width="4" stroke-linecap="round">
+    <path d="M100 132C99 97 91 61 74 31"/>
+    <path d="M100 132C103 96 113 61 132 34"/>
+    <path d="M100 132C96 102 81 79 56 60"/>
+    <path d="M100 132C105 101 123 82 151 67"/>
+  </g>
+  <g fill="#4a9b61" stroke="#286c43" stroke-width="1.5">
+    <ellipse cx="70" cy="39" rx="8" ry="17" transform="rotate(-31 70 39)"/>
+    <ellipse cx="82" cy="59" rx="8" ry="17" transform="rotate(-24 82 59)"/>
+    <ellipse cx="90" cy="81" rx="8" ry="17" transform="rotate(-17 90 81)"/>
+    <ellipse cx="128" cy="42" rx="8" ry="17" transform="rotate(29 128 42)"/>
+    <ellipse cx="117" cy="62" rx="8" ry="17" transform="rotate(23 117 62)"/>
+    <ellipse cx="110" cy="84" rx="8" ry="17" transform="rotate(15 110 84)"/>
+    <ellipse cx="55" cy="58" rx="8" ry="17" transform="rotate(-48 55 58)"/>
+    <ellipse cx="74" cy="75" rx="8" ry="17" transform="rotate(-42 74 75)"/>
+    <ellipse cx="89" cy="98" rx="8" ry="17" transform="rotate(-26 89 98)"/>
+    <ellipse cx="152" cy="65" rx="8" ry="17" transform="rotate(49 152 65)"/>
+    <ellipse cx="132" cy="82" rx="8" ry="17" transform="rotate(42 132 82)"/>
+    <ellipse cx="115" cy="103" rx="8" ry="17" transform="rotate(27 115 103)"/>
+  </g>
+  <path d="M62 128h76l-10 52H72z" fill="#b8643f"/>
+  <rect x="56" y="118" width="88" height="16" rx="5" fill="#cf7a52"/>
+</svg>
